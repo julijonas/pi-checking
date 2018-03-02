@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+}
+#controls * {
+	font: 14px/1.2 "Lucida Grande", "Droid Sans", "Segoe UI", sans-serif;
+}
+#controls {
+	border-bottom: 1px solid #aaa;
+	padding: 5px 10px;
+	background: #eee;
+}
+#output {
+	padding: 10px;
+	font: 30px/1.2 "Lucida Console", Monaco, monospace;
+	display: table;
+	table-layout: fixed;
+}
+#initial {
+	display: table-cell;
+	width: 80px;
+}
+#value {
+	display: table-cell;
+	word-wrap: break-word;
+}
+#value .group {
+	display: inline-block;
+	margin-right: 20px;
+}
+#value .incorrect {
+	color: #f00;
+}
+#hidden {
+	position: fixed;
+	width: 0;
+	overflow: hidden;
+}
+#decimalPlaces {
+	width: 50px;
+}
